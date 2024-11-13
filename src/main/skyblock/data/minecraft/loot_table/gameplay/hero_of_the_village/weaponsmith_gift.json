@@ -7,19 +7,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet"
+          "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate"
+          "name": "minecraft:golden_axe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_leggings"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots"
+          "name": "minecraft:iron_axe"
         },
         {
           "type": "minecraft:item",
@@ -28,5 +24,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/armorer_gift"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/weaponsmith_gift"
 }

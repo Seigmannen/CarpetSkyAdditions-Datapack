@@ -7,19 +7,19 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet"
+          "name": "minecraft:stone_pickaxe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate"
+          "name": "minecraft:stone_axe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_leggings"
+          "name": "minecraft:stone_hoe"
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots"
+          "name": "minecraft:stone_shovel"
         },
         {
           "type": "minecraft:item",
@@ -28,5 +28,5 @@
       ]
     }
   ],
-  "random_sequence": "minecraft:gameplay/hero_of_the_village/armorer_gift"
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/toolsmith_gift"
 }
