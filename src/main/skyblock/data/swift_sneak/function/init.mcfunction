@@ -1,3 +1,4 @@
-# Initialize the advancement for detecting the player near a Warden
-advancement grant @a only swift_sneak:near_warden
+# Initialize the advancement that starts the check for proximity
+advancement grant @a only swift_sneak:grant_check
+# Schedule the function to check proximity every tick
 schedule function swift_sneak:check_distance 1t

@@ -1,2 +1,5 @@
-# Allow Swift Sneak enchantment at the enchanting table
-item modify entity @a[distance=..8] weapon.mainhand minecraft:swift_sneak
+# Code to temporarily grant Swift Sneak enchantment availability.
+# Here, you could use a `tag` or scoreboard value to signify this status
+# (adjust according to the way you want Swift Sneak to be made available)
+
+tag @s add near_warden
