@@ -1,0 +1,55 @@
+{
+  "parent": "skyblock:challenges/root",
+  "rewards": {
+    "function": "skyblock:advancement_rewards/flow_armor_trim_smithing_template"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:conduit"
+    },
+    "title": {
+      "translate": "Harnessing the Flow"
+    },
+    "description": {
+      "translate": "Use a Riptide trident under the influence of a conduit during rain."
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "conduit_and_riptide_in_rain": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:player",
+              "effects": {
+                "minecraft:conduit_power": {
+                  "amplifier": 0,
+                  "duration": {
+                    "min": 1,
+                    "max": 0
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "item": {
+          "items": ["minecraft:trident"],
+          "components": {
+            "minecraft:enchantments": {
+              "minecraft:riptide": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

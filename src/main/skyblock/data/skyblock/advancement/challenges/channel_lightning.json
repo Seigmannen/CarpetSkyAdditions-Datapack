@@ -1,0 +1,189 @@
+{
+  "parent": "skyblock:challenges/root",
+  "rewards": {
+    "function": "skyblock:advancement_rewards/bolt_armor_trim_smithing_template"
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:trident"
+    },
+    "title": {
+      "translate": "Lightning Conqueror"
+    },
+    "description": {
+      "translate": "Use a channeling trident on a creeper, phantom, pig, skeleton, and villager during a lightning storm"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "lightning_creeper": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:creeper",
+          "nbt": "{powered:1b}"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lightning_phantom": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:phantom",
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lightning_pig": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:pig",
+          "nbt": "{type:zombified_piglin}"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lightning_skeleton": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{variant:stray}"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    "lightning_villager": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{profession:witch}"
+        },
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:channeling",
+                    "levels": 1
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+  }
+}
