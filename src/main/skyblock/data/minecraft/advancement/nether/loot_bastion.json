@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:nether/find_bastion",
+    "criteria": {
+      "impossible": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  
