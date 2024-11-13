@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "any_of": [
+      { "structure": "minecraft:desert_pyramid" },
+      { "structure": "minecraft:ocean_ruin_warm" }
+    ]
+  }
+}

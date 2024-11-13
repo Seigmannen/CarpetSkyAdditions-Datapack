@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "any_of": [
+      { "structure": "minecraft:trail_ruin" },
+      { "structure": "minecraft:ocean_ruin_cold" }
+    ]
+  }
+}
