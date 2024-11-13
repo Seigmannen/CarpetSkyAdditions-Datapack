@@ -50,7 +50,7 @@
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "structures": "minecraft:ocean_ruins_cold"
+            "structures": "minecraft:ocean_ruin_cold"
           }
         }
       ]

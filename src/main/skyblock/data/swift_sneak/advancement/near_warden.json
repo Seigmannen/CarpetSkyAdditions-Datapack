@@ -1,26 +1,31 @@
 {
-    "criteria": {
-        "near_warden": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": {
-                    "location": {
-                        "position": {
-                            "distance": {
-                                "absolute": {
-                                    "max": 8.0
-                                }
-                            }
-                        },
-                        "entity": {
-                            "type": "minecraft:warden"
-                        }
-                    }
-                }
+  "criteria": {
+    "near_warden": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:warden",
+          "location": {
+            "position": {
+              "x": {
+                "min": 0,
+                "max": 8
+              },
+              "y": {
+                "min": 0,
+                "max": 8
+              },
+              "z": {
+                "min": 0,
+                "max": 8
+              }
             }
+          }
         }
-    },
-    "rewards": {
-        "function": "swift_sneak:grant_swift_sneak"
+      }
     }
+  },
+  "rewards": {
+    "function": "swift_sneak:grant_swift_sneak"
+  }
 }

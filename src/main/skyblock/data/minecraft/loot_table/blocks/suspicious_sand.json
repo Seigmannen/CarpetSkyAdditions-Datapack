@@ -6,12 +6,12 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:archaeology/desert_pyramid",
+          "value": "minecraft:archaeology/desert_pyramid",
           "conditions": [
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "minecraft:desert_pyramid"
+                "structures": "minecraft:desert_pyramid"
               }
             },
             {
@@ -22,12 +22,12 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:archaeology/desert_well",
+          "value": "minecraft:archaeology/desert_well",
           "conditions": [
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "structure": "minecraft:desert_pyramid"
+                "structures": "minecraft:desert_pyramid"
               }
             },
             {
@@ -43,14 +43,14 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "minecraft:archaeology/ocean_ruin_warm"
+          "value": "minecraft:archaeology/ocean_ruin_warm"
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:location_check",
           "predicate": {
-            "structure": "minecraft:ocean_ruin_warm"
+            "structures": "minecraft:ocean_ruin_warm"
           }
         }
       ]

@@ -54,7 +54,7 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "entity": {
-          "type": "minecraft:phantom",
+          "type": "minecraft:phantom"
         },
         "damage": {
           "type": {
@@ -184,6 +184,6 @@
           }
         }
       }
-    },
+    }
   }
 }
