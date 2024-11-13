@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "near_warden": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "position": {
+                            "distance": {
+                                "absolute": {
+                                    "max": 8.0
+                                }
+                            }
+                        },
+                        "entity": {
+                            "type": "minecraft:warden"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "swift_sneak:grant_swift_sneak"
+    }
+}
