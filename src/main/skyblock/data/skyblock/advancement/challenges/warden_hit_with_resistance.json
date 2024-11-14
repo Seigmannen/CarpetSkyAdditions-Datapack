@@ -1,4 +1,8 @@
 {
+  "parent": "skyblock:challenges/root",
+  "rewards": {
+    "function": "skyblock:advancement_rewards/ward_armor_trim_smithing_template"
+  },
   "display": {
     "icon": {
       "id": "minecraft:netherite_chestplate",
@@ -16,80 +20,65 @@
     },
     "frame": "challenge"
   },
-  "parent": "skyblock:challenges/root",
   "criteria": {
     "warden_hit": {
       "trigger": "minecraft:entity_hurt_player",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "head": {
-                  "items": [
-                    "minecraft:netherite_helmet"
-                  ],
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:protection",
-                        "levels": 4
-                      }
-                    ]
+        "player": {
+          "equipment": {
+            "head": {
+              "items": "minecraft:netherite_helmet",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": 4
                   }
-                },
-                "chest": {
-                  "items": [
-                    "minecraft:netherite_chestplate"
-                  ],
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:protection",
-                        "levels": 4
-                      }
-                    ]
+                ]
+              }
+            },
+            "chest": {
+              "items": "minecraft:netherite_chestplate",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": 4
                   }
-                },
-                "legs": {
-                  "items": [
-                    "minecraft:netherite_leggings"
-                  ],
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:protection",
-                        "levels": 4
-                      }
-                    ]
+                ]
+              }
+            },
+            "legs": {
+              "items": "minecraft:netherite_leggings",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": 4
                   }
-                },
-                "feet": {
-                  "items": [
-                    "minecraft:netherite_boots"
-                  ],
-                  "predicates": {
-                    "minecraft:enchantments": [
-                      {
-                        "enchantments": "minecraft:protection",
-                        "levels": 4
-                      }
-                    ]
+                ]
+              }
+            },
+            "feet": {
+              "items": "minecraft:netherite_boots",
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "minecraft:protection",
+                    "levels": 4
                   }
-                }
-              },
-              "effects": {
-                "minecraft:resistance": {
-                  "amplifier": {
-                    "min": 3
-                  }
-                }
+                ]
+              }
+            }
+          },
+          "effects": {
+            "minecraft:resistance": {
+              "amplifier": {
+                "min": 3
               }
             }
           }
-        ],
+        },
         "damage": {
           "source_entity": {
             "type": "minecraft:warden"
@@ -97,8 +86,5 @@
         }
       }
     }
-  },
-  "rewards": {
-    "function": "skyblock:advancement_rewards/ward_armor_trim_smithing_template"
   }
 }
