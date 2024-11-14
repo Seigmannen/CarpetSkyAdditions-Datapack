@@ -19,9 +19,17 @@
     "lightning_creeper": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:creeper",
-          "nbt": "{powered:1b}"
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            }
+          }
         },
         "damage": {
           "type": {
@@ -33,28 +41,25 @@
             ]
           }
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:channeling",
-                    "levels": 1
-                  }
-                ]
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:creeper"
         }
       }
     },
     "lightning_phantom": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:phantom"
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            }
+          }
         },
         "damage": {
           "type": {
@@ -66,29 +71,25 @@
             ]
           }
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:channeling",
-                    "levels": 1
-                  }
-                ]
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:phantom"
         }
       }
     },
     "lightning_pig": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:pig",
-          "nbt": "{type:zombified_piglin}"
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            }
+          }
         },
         "damage": {
           "type": {
@@ -100,29 +101,25 @@
             ]
           }
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:channeling",
-                    "levels": 1
-                  }
-                ]
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:pig"
         }
       }
     },
     "lightning_skeleton": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:skeleton",
-          "nbt": "{variant:stray}"
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            }
+          }
         },
         "damage": {
           "type": {
@@ -134,29 +131,25 @@
             ]
           }
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:channeling",
-                    "levels": 1
-                  }
-                ]
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:skeleton"
         }
       }
     },
     "lightning_villager": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
-        "entity": {
-          "type": "minecraft:villager",
-          "nbt": "{profession:witch}"
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": "minecraft:trident",
+              "components": {
+                "minecraft:enchantments": {
+                  "minecraft:channeling": 1
+                }
+              }
+            }
+          }
         },
         "damage": {
           "type": {
@@ -168,20 +161,8 @@
             ]
           }
         },
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "predicates": {
-                "minecraft:enchantments": [
-                  {
-                    "enchantments": "minecraft:channeling",
-                    "levels": 1
-                  }
-                ]
-              }
-            }
-          }
+        "entity": {
+          "type": "minecraft:villager"
         }
       }
     }
