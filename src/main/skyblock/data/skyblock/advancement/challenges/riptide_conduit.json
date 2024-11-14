@@ -1,7 +1,7 @@
 {
   "parent": "skyblock:challenges/root",
   "rewards": {
-    "function": "skyblock:check_conditions"
+    "function": "skyblock:advancement_rewards/flow_armor_trim_smithing_template"
   },
   "display": {
     "icon": {
@@ -16,10 +16,14 @@
     "frame": "challenge"
   },
   "criteria": {
-    "conduit_and_riptide_in_rain": {
+    "riptide_conduit": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": [
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true
+          },
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -38,6 +42,11 @@
                       }
                     ]
                   }
+                }
+              },
+              "effects": {
+                "minecraft:conduit_power": {
+                  "amplifier": 0
                 }
               }
             }
