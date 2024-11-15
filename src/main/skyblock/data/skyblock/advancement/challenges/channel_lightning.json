@@ -17,150 +17,165 @@
   },
   "criteria": {
     "lightning_creeper": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:channeling": 1
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:trident",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:channeling"
+                      }
+                    ]
+                  }
                 }
               }
             }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true,
+            "thundering": true
           }
-        },
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:is_lightning",
-                "expected": true
-              }
-            ]
-          }
-        },
+        ],
         "entity": {
           "type": "minecraft:creeper"
         }
       }
     },
     "lightning_phantom": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:channeling": 1
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:trident",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:channeling"
+                      }
+                    ]
+                  }
                 }
               }
             }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true,
+            "thundering": true
           }
-        },
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:is_lightning",
-                "expected": true
-              }
-            ]
-          }
-        },
+        ],
         "entity": {
           "type": "minecraft:phantom"
         }
       }
     },
     "lightning_pig": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:channeling": 1
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:trident",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:channeling"
+                      }
+                    ]
+                  }
                 }
               }
             }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true,
+            "thundering": true
           }
-        },
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:is_lightning",
-                "expected": true
-              }
-            ]
-          }
-        },
+        ],
         "entity": {
           "type": "minecraft:pig"
         }
       }
     },
     "lightning_skeleton": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:channeling": 1
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:trident",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:channeling"
+                      }
+                    ]
+                  }
                 }
               }
             }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true,
+            "thundering": true
           }
-        },
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:is_lightning",
-                "expected": true
-              }
-            ]
-          }
-        },
+        ],
         "entity": {
           "type": "minecraft:skeleton"
         }
       }
     },
     "lightning_villager": {
-      "trigger": "minecraft:player_hurt_entity",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "player": {
-          "equipment": {
-            "mainhand": {
-              "items": "minecraft:trident",
-              "components": {
-                "minecraft:enchantments": {
-                  "minecraft:channeling": 1
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "items": "minecraft:trident",
+                  "predicates": {
+                    "minecraft:enchantments": [
+                      {
+                        "enchantments": "minecraft:channeling"
+                      }
+                    ]
+                  }
                 }
               }
             }
+          },
+          {
+            "condition": "minecraft:weather_check",
+            "raining": true,
+            "thundering": true
           }
-        },
-        "damage": {
-          "type": {
-            "tags": [
-              {
-                "id": "minecraft:is_lightning",
-                "expected": true
-              }
-            ]
-          }
-        },
+        ],
         "entity": {
           "type": "minecraft:villager"
         }
