@@ -6,5 +6,7 @@
   },
   "result": {
     "id": "minecraft:tuff"
-  }
+  },
+  "experience": 0.1,
+  "cookingtime": 100
 }
