@@ -1,0 +1,7 @@
+scoreboard players set @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level 1
+scoreboard players add @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level 0
+scoreboard players operation @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level %= @s random_number
+
+execute if score @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level matches 0 run function swift_sneak:drop_book 1
+execute if score @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level matches 1 run function swift_sneak:drop_book 2
+execute if score @e[type=villager, distance=..5, limit=1, sort=nearest] swift_sneak_level matches 2 run function swift_sneak:drop_book 3

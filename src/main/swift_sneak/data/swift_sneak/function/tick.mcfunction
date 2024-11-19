@@ -1,6 +1,0 @@
-function swift_sneak:detect_near_warden_and_table
-function swift_sneak:randomize_level
-function swift_sneak:increment_timer
-function swift_sneak:grant_reward
-function swift_sneak:reset_sneak_tag
-function swift_sneak:reset_stopped_tag

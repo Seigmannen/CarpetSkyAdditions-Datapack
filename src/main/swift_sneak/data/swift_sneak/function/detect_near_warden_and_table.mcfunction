@@ -1,1 +1,0 @@
-execute as @a[nbt={SelectedItem:{id:"minecraft:book"}}] at @s if entity @e[type=minecraft:warden,distance=..10] if predicate swift_sneak:is_sneaking if block ~3 ~3 ~3 minecraft:enchanting_table run tag @s add near_warden_sneak
