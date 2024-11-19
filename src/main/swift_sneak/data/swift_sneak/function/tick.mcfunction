@@ -1,3 +1,4 @@
 function swift_sneak:reset_proximity_tag
 function swift_sneak:check_proximity
+function swift_sneak:check_interaction
 function swift_sneak:apply_enchant
