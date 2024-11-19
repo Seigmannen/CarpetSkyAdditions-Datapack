@@ -1,5 +1,5 @@
-# Check if the wandering trader spawns in a tagged desert biome and add tag if true
-execute as @e[type=minecraft:wandering_trader, tag=!camel_checked] at @s if biome #wandering_trader_camel:desert_biomes run tag @s add needs_camel
+# Check if the wandering trader spawns in a desert biome and add tag if true
+execute as @e[type=minecraft:wandering_trader, tag=!camel_checked] at @s if biome ~ ~ ~ minecraft:desert run tag @s add needs_camel
 
 # Mark all checked traders so they aren’t re-checked
 tag @e[type=minecraft:wandering_trader, tag=!camel_checked] add camel_checked
