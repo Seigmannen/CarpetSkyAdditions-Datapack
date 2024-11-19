@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "used_enchanting_table": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "block": {
+              "blocks": "minecraft:enchanting_table"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+  
