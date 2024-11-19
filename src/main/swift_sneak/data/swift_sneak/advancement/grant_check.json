@@ -1,7 +1,0 @@
-{
-    "criteria": {
-      "trigger_grant": {
-        "trigger": "minecraft:impossible"
-      }
-    }
-  }
