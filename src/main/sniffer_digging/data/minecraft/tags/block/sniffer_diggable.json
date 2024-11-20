@@ -3,8 +3,6 @@
   "values": [
     "minecraft:sand",
     "minecraft:red_sand",
-    "minecraft:suspicious_sand",
-    "minecraft:gravel",
-    "minecraft:suspicious_gravel"
+    "minecraft:gravel"
   ]
 }
