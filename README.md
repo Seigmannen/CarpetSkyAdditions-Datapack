@@ -12,7 +12,7 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 ## Features & Changes
 ### Incomplete or Under Development:
 - **Vex to Allay Transformation:** Currently exploring alternative methods due to limitations.
-- **Sniffer Sand/Gravel Conversion:** carpetskyadditions_reborn crashes the game; The datapack sniffer_digging is now working. The loot tables are set. Missing loot table for desert well and trail ruins rare. Also need to find a way for suspicous sand to generate 10% of the time.
+- **Sniffer Sand/Gravel Conversion:** carpetskyadditions_reborn crashes the game; The datapack sniffer_digging is now working. Implementing the 10% chance for turning sand/gravel to the suspicous variant proved to be hard. Anyone have a solution for this?
 - **Wandering Trader Camel Riding:** carpetskyadditions_reborn crashes the game; relogs fix the issue, searching for a stable solution.
 - **Breeze Spawning Mechanism:** Considering converting blazes into breezes and developing a custom structure-based spawner system.
 
