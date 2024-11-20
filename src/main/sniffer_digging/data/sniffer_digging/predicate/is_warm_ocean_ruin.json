@@ -2,7 +2,6 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "structures": [
-      "minecraft:desert_pyramid",
       "minecraft:ocean_ruin_warm"
     ]
   }

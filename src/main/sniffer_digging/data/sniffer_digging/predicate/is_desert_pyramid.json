@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "structures": [
+      "minecraft:desert_pyramid"
+    ]
+  }
+}
+  

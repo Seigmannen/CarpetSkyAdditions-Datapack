@@ -2,7 +2,6 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "structures": [
-      "minecraft:trail_ruins",
       "minecraft:ocean_ruin_cold"
     ]
   }
