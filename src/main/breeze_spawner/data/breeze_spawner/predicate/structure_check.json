@@ -3,111 +3,113 @@
   "terms": [
     {
       "condition": "minecraft:location_check",
-      "offsetX": -1,
-      "offsetY": 0,
-      "offsetZ": -1,
       "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_tuff"
-        }
+        "structures": "minecraft:trial_chambers"
       }
     },
     {
-      "condition": "minecraft:location_check",
-      "offsetX": 1,
-      "offsetY": 0,
-      "offsetZ": -1,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_tuff"
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": 0,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_tuff"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": 0,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_tuff"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": 0,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_tuff"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": 0,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_tuff"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_copper"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_copper"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_copper"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:chiseled_copper"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": 0,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:copper_block"]
+            }
+          }
         }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": -1,
-      "offsetY": 0,
-      "offsetZ": 1,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_tuff"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": 1,
-      "offsetY": 0,
-      "offsetZ": 1,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_tuff"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": 0,
-      "offsetY": 0,
-      "offsetZ": -1,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_copper"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": 0,
-      "offsetY": 0,
-      "offsetZ": 1,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_copper"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": -1,
-      "offsetY": 0,
-      "offsetZ": 0,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_copper"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": 1,
-      "offsetY": 0,
-      "offsetZ": 0,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:chiseled_copper"
-        }
-      }
-    },
-    {
-      "condition": "minecraft:location_check",
-      "offsetX": 0,
-      "offsetY": 0,
-      "offsetZ": 0,
-      "predicate": {
-        "structures": "trial_chambers",
-        "block": {
-          "blocks": "minecraft:copper_block"
-        }
-      }
+      ]
     }
   ]
 }
