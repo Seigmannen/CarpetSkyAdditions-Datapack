@@ -12,12 +12,12 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 ## Features & Changes
 ### Incomplete or Under Development:
 - **Vex to Allay Transformation:** Currently exploring alternative methods due to limitations.
-- **Sniffer Sand/Gravel Conversion:** carpetskyadditions_reborn crashes the game; The datapack sniffer_digging is now working. Implementing the 10% chance for turning sand/gravel to the suspicous variant proved to be hard. Anyone have a solution for this?
-- **Wandering Trader Camel Riding:** carpetskyadditions_reborn crashes the game; relogs fix the issue, searching for a stable solution.
 - **Breeze Spawning Mechanism:** Considering converting blazes into breezes and developing a custom structure-based spawner system.
 
 ### Implemented Features:
-- **Renewable Swift Sneak:** Added a loot table for librarians to drop a Swift Sneak book (level 1-3) when killed by a Warden.
+- **Renewable Swift Sneak:** Added a loot table for librarians to drop a Swift Sneak book (level 1-3) when killed by a Warden. Disable CarpetSkyAdditions-Reborn non working function: /carpetskyadditions removeDefault renewableSwiftSneak
+- **Sniffer Sand/Gravel Conversion:** carpetskyadditions_reborn crashes the game; The datapack sniffer_digging is now working. Implementing the 10% chance for turning sand/gravel to the suspicous variant proved to be hard. Anyone have a solution for this? Disable CarpetSkyAdditions-Reborn non working function: /carpetskyadditions removeDefault suspiciousSniffers
+- **Wandering Trader Spawns With Camel** When wandering trader spawns in a desert biome, the wandering trader will spawn with a camel. Disable CarpetSkyAdditions-Reborn non working function: /carpetskyadditions removeDefault traderCamels
 - **Modified Piglin Bartering:** Adjusted loot tables to ensure enchanted books from piglin bartering are only Soul Speed books (level 1-3).
 - **Light Source Advancement:** Updated the light source achievement to include all copper bulb variants (67 total).
 - **Spyglass all animals Advancement:** Included armadillos, raising the total number of animals to 40.
