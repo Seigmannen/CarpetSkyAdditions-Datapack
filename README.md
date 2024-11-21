@@ -12,7 +12,7 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 ## Features & Changes
 ### Incomplete or Under Development:
 - **Vex to Allay Transformation:** Currently exploring alternative methods due to limitations.
-- **Breeze Spawning Mechanism:** Considering converting blazes into breezes and developing a custom structure-based spawner system.
+- **Breeze Spawning Mechanism:** This datapack is working now. Build the breeze 3x3 floor structure, stand one block south from the floor structure, then use fint and steel on the middle copper block. The trial spawner will appear, with a vault and ominous vault close by. There are a few things that needs a little bit of tweaking, but it doesn't stop the datapack functioning.
 
 ### Implemented Features:
 - **Renewable Swift Sneak:** Added a loot table for librarians to drop a Swift Sneak book (level 1-3) when killed by a Warden. Disable CarpetSkyAdditions-Reborn non working function: /carpetskyadditions removeDefault renewableSwiftSneak
