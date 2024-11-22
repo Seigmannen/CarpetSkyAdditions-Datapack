@@ -1,1 +1,0 @@
-execute as @e[tag=vex_to_allay] at @s run function vex_to_allay:check_note
