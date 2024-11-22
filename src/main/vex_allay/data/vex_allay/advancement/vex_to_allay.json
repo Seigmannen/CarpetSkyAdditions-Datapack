@@ -1,0 +1,22 @@
+{
+  "parent": "skyblock:progression/emerald",
+  "display": {
+    "icon": {
+      "id": "minecraft:amethyst_shard"
+    },
+    "title": "Harmony Achieved",
+    "description": "Sacrifice a Vex on top of the Vex Sacrificial Structure to turn it into an Allay.",
+    "frame": "challenge"
+  },
+  "criteria": {
+    "transform_vex_to_allay": {
+      "trigger": "minecraft:summoned_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:allay",
+          "nbt": "{Tags:[\"from_vex\"]}"
+        }
+      }
+    }
+  }
+}

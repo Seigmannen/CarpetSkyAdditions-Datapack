@@ -20,6 +20,7 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 <div style="display: flex; justify-content: center; gap: 10px;"><img src="img/Layer_all.png" alt="Description" width="150"><img src="img/Layer_4.png" alt="Description" width="150"><img src="img/Layer_3.png" alt="Description" width="150"><img src="img/Layer_2.png" alt="Description" width="150"><img src="img/Layer_1.png" alt="Description" width="150"></div>
 
+Vex to Allay datapack comes with it's own achievement for turning vex to allays. The original one from the mod has the hidden tag, it is there, but cannot see it unless it is triggered.
 - **Wandering Trader Spawns With Camel** When wandering trader spawns in a desert biome, the wandering trader will spawn with a camel. Disable CarpetSkyAdditions-Reborn non working function: /carpetskyadditions removeDefault traderCamels
 - **Modified Piglin Bartering:** Adjusted loot tables to ensure enchanted books from piglin bartering are only Soul Speed books (level 1-3).
 - **Light Source Advancement:** Updated the light source achievement to include all copper bulb variants (67 total).
