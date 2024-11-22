@@ -1,0 +1,549 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:all_of",
+      "terms": [
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": -4,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": -3,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": -2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": -1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": 0,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": 1,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -3,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -2,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": -1,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 0,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:glowstone"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 1,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 2,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:gold_block"]
+            }
+          }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "offsetX": 3,
+          "offsetY": -3,
+          "offsetZ": 2,
+          "predicate": {
+            "block": {
+              "blocks": ["minecraft:amethyst_block"]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

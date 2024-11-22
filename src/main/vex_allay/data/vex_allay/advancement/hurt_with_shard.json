@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "hurt_with_shard": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:vex",
+            "nbt": "{Tags:[\"beacon_complete\"]}"
+          },
+          "damage": {
+            "source_entity": {
+              "type": "minecraft:player",
+              "nbt": "{SelectedItem:{id:\"minecraft:amethyst_shard\"}}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vex_allay:transform_vex"
+    }
+  }
+  

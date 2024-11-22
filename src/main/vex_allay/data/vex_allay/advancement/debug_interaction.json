@@ -1,0 +1,23 @@
+{
+    "criteria": {
+      "use_shard": {
+        "trigger": "minecraft:item_used_on_entity",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "mainhand": {
+                "item": "minecraft:amethyst_shard"
+              }
+            }
+          },
+          "entity": {
+            "type": "minecraft:vex"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "vex_allay:debug_interaction"
+    }
+  }
+  
