@@ -1,0 +1,20 @@
+{
+  "parent": "skyblock:progression/cure_zombie_villager",
+  "display": {
+    "icon": {
+      "id": "minecraft:breeze_rod"
+    },
+    "title": "Trial by Fire",
+    "description": "Summon a Trial Spawner in the Trial Chamber.",
+    "frame": "goal",
+    "hidden": false
+  },
+  "criteria": {
+    "summon_trial_spawner": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
