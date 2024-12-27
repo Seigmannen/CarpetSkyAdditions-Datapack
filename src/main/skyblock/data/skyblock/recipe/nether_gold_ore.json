@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:gold_ingot"
-    },
-    "S": {
-      "item": "minecraft:netherrack"
-    }
+    "X": [
+      "minecraft:gold_ingot"
+    ],
+    "S": [
+      "minecraft:netherrack"
+    ]
   },
   "result": {
     "id": "minecraft:nether_gold_ore"

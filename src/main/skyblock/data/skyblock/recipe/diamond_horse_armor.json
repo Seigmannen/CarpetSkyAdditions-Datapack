@@ -7,9 +7,9 @@
     "X X"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:diamond"
-    }
+    "X": [
+      "minecraft:diamond"
+    ]
   },
   "result": {
     "id": "minecraft:diamond_horse_armor"

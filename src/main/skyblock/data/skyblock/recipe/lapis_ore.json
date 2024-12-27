@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:lapis_block"
-    },
-    "S": {
-      "item": "minecraft:stone"
-    }
+    "X": [
+      "minecraft:lapis_block"
+    ],
+    "S": [
+      "minecraft:stone"
+    ]
   },
   "result": {
     "id": "minecraft:lapis_ore"

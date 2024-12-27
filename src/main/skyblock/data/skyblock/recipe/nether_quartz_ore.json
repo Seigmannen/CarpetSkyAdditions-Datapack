@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:quartz"
-    },
-    "S": {
-      "item": "minecraft:netherrack"
-    }
+    "X": [
+      "minecraft:quartz"
+    ],
+    "S": [
+      "minecraft:netherrack"
+    ]
   },
   "result": {
     "id": "minecraft:nether_quartz_ore"

@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:coal"
-    },
-    "S": {
-      "item": "minecraft:deepslate"
-    }
+    "X": [
+      "minecraft:coal"
+    ],
+    "S": [
+      "minecraft:deepslate"
+    ]
   },
   "result": {
     "id": "minecraft:deepslate_coal_ore"

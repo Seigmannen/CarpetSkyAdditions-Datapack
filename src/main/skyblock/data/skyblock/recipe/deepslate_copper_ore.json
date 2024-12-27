@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:copper_block"
-    },
-    "S": {
-      "item": "minecraft:deepslate"
-    }
+    "X": [
+      "minecraft:copper_block"
+    ],
+    "S": [
+      "minecraft:deepslate"
+    ]
   },
   "result": {
     "id": "minecraft:deepslate_copper_ore"

@@ -290,6 +290,18 @@
         ]
       }
     },
+    "has_pale_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_oak_sapling"
+            ]
+          }
+        ]
+      }
+    },
     "has_mangrove_propagule": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -357,6 +369,42 @@
           {
             "items": [
               "minecraft:fern"
+            ]
+          }
+        ]
+      }
+    },
+    "has_pale_moss_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_moss_block"
+            ]
+          }
+        ]
+      }
+    },
+    "has_open_eyeblossom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:open_eyeblossom"
+            ]
+          }
+        ]
+      }
+    },
+    "has_pale_hanging_moss": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_hanging_moss"
             ]
           }
         ]

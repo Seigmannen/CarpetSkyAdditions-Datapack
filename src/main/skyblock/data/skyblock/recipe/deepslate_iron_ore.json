@@ -8,12 +8,12 @@
     " X "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:iron_ingot"
-    },
-    "S": {
-      "item": "minecraft:deepslate"
-    }
+    "X": [
+      "minecraft:iron_ingot"
+    ],
+    "S": [
+      "minecraft:deepslate"
+    ]
   },
   "result": {
     "id": "minecraft:deepslate_iron_ore"

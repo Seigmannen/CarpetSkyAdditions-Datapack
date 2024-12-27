@@ -108,6 +108,18 @@
           }
         ]
       }
+    },
+    "pale_oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_oak_sapling"
+            ]
+          }
+        ]
+      }
     }
   }
 }

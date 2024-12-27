@@ -1,5 +1,4 @@
 {
-  "parent": "skyblock:progression/kill_zombie",
   "display": {
     "icon": {
       "id": "minecraft:poisonous_potato"
@@ -8,18 +7,14 @@
       "translate": "Spider Scientist"
     },
     "description": {
-      "translate": "Convert a Spider to a Cave Spider with a Poisonous Potato, and Kill IT!"
+      "translate": "Convert a Spider to a Cave Spider with a Poisonous Potato"
     },
     "frame": "goal"
   },
+  "parent": "skyblock:progression/zombie_crop",
   "criteria": {
-    "kill_cave_spider": {
-      "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "type": "minecraft:cave_spider"
-        }
-      }
+    "convert_spider": {
+      "trigger": "carpetskyadditions:convert_spider"
     }
   }
 }
