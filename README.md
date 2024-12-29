@@ -11,23 +11,21 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 ### Implemented Features:
 
-- **Modified Piglin Bartering:** Adjusted loot tables to ensure enchanted books from piglin bartering are only Soul Speed books (level 1-3).
+- **Skyblock Datapack:** This datapack starts with an oak tree.
 
-- **Light Source Advancement:** Updated the light source achievement to include all copper bulb variants (67 total).
+- **Skyblock Acacia Datapack:** This datapack will start with an acacia tree for a little harder game.
 
-- **Spyglass all animals Advancement:** Included armadillos, raising the total number of animals to 40.
-
-- **Spider Conversion Advancement:** Fixed the cave spider kill triggering issue for achievement.
-
-- **Minor Script Fixes:** Adjusted scripts for stability and compatibility.
+- **Standalone Datapacks:** In the original mod, both datapacks needed to be selected for skyblock acacia to have all advancements/behaviors. This version is standalone. No need for to activate both datapacks.
 
 ### New Additions:
 
-- **Breeze Drops:** Added a chance for breezes to drop pottery sherds found in trial chambers.
-
-- **Trial Chamber Music Disks:** Skeletons killing creepers in trial chambers' bounding boxes now drop three music disks.
-
 - **Armor Trim Challenges:** Added challenges for obtaining the bolt and flow armor trim smithing templates.
+
+- **Trial Chamber Music Disks:** Skeletons killing creepers in trial chambers' bounding boxes now drop two music disks.
+
+- **Trial Chamber Music Disks Advancement:** Added new advancement for getting music disks from trial chambers using creepers.
+
+- **Updated Loot Table for Trial Vaults** These are too overpowered, so they have been nerfed.
 
 ## Credits
 - Original `CarpetSkyAdditions` by [jsorrell](https://github.com/jsorrell/CarpetSkyAdditions).
