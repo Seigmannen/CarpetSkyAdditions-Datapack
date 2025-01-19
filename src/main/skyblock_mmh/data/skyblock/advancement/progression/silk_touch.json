@@ -4,16 +4,16 @@
       "id": "minecraft:golden_shovel",
       "components": {
         "minecraft:enchantments": {
-          "minecraft:silk_touch": 0
+          "levels": {
+            "minecraft:silk_touch": 1
+          }
         }
       }
     },
     "title": {
       "translate": "Easier than Endermen"
     },
-    "description": {
-      "translate": "Get a Silk Touch tool so you can move Grass Blocks easier"
-    },
+    "description": "Get a Silk Touch tool so you can move Grass Blocks easier",
     "frame": "goal"
   },
   "parent": "skyblock:progression/kill_zombie",
@@ -27,9 +27,7 @@
               "minecraft:enchantments": [
                 {
                   "enchantments": "minecraft:silk_touch",
-                  "levels": {
-                    "min": 1
-                  }
+                  "levels": 1
                 }
               ]
             }
