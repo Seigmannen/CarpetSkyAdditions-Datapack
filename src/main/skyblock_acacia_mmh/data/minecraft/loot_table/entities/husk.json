@@ -17,15 +17,6 @@
           "value": "more_mob_heads:entities/husk"
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:loot_table",
-          "value": "husks_drop_sand:entities/husk"
-        }
-      ]
     }
   ]
 }
