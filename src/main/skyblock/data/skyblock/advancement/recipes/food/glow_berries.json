@@ -1,5 +1,10 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:glow_berries"
+    ]
+  },
   "criteria": {
     "has_sweet_berries": {
       "trigger": "minecraft:inventory_changed",
@@ -24,10 +29,5 @@
       "has_the_recipe"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "skyblock:glow_berries"
-    ]
-  },
   "sends_telemetry_event": false
 }

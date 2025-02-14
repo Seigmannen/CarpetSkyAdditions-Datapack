@@ -111,6 +111,30 @@
           }
         ]
       }
+    },
+    "has_field_masoned_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:field_masoned_banner_pattern"
+            ]
+          }
+        ]
+      }
+    },
+    "has_bordure_indented_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bordure_indented_banner_pattern"
+            ]
+          }
+        ]
+      }
     }
   }
 }

@@ -12,7 +12,7 @@
     }
   },
   "criteria": {
-    "has_oak_sapling": {
+    "has_acacia_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

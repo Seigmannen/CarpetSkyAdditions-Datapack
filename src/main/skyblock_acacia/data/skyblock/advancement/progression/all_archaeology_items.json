@@ -1,13 +1,17 @@
 {
-  "parent": "skyblock:progression/generate_suspicious_loot_table",
   "display": {
     "icon": {
       "id": "minecraft:wayfinder_armor_trim_smithing_template"
     },
-    "title": "Master Archaeologist",
-    "description": "Excavate all items exclusively available through archaology",
+    "title": {
+      "translate": "Master Archaeologist"
+    },
+    "description": {
+      "translate": "Excavate all items exclusively available through archaeology"
+    },
     "frame": "challenge"
   },
+  "parent": "skyblock:progression/generate_suspicious_loot_table",
   "criteria": {
     "angler_pottery_sherd": {
       "trigger": "minecraft:inventory_changed",

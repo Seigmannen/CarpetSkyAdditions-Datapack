@@ -1,5 +1,10 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:coal_ore"
+    ]
+  },
   "criteria": {
     "has_coal": {
       "trigger": "minecraft:inventory_changed",
@@ -24,10 +29,5 @@
       "has_the_recipe"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "skyblock:coal_ore"
-    ]
-  },
   "sends_telemetry_event": false
 }

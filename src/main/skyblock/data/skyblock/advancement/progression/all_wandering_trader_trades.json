@@ -1,5 +1,4 @@
 {
-  "parent": "skyblock:progression/all_saplings",
   "display": {
     "icon": {
       "id": "minecraft:tube_coral_block"
@@ -12,6 +11,7 @@
     },
     "frame": "challenge"
   },
+  "parent": "skyblock:progression/all_saplings",
   "criteria": {
     "has_beetroot": {
       "trigger": "minecraft:inventory_changed",
@@ -194,18 +194,6 @@
         ]
       }
     },
-    "has_oak_sapling": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oak_sapling"
-            ]
-          }
-        ]
-      }
-    },
     "has_spruce_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -242,18 +230,6 @@
         ]
       }
     },
-    "has_cherry_sapling": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:cherry_sapling"
-            ]
-          }
-        ]
-      }
-    },
     "has_acacia_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -278,13 +254,13 @@
         ]
       }
     },
-    "has_pale_oak_sapling": {
+    "has_oak_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:pale_oak_sapling"
+              "minecraft:oak_sapling"
             ]
           }
         ]
@@ -297,6 +273,18 @@
           {
             "items": [
               "minecraft:mangrove_propagule"
+            ]
+          }
+        ]
+      }
+    },
+    "has_cherry_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cherry_sapling"
             ]
           }
         ]
@@ -357,6 +345,18 @@
           {
             "items": [
               "minecraft:fern"
+            ]
+          }
+        ]
+      }
+    },
+    "has_pale_oak_sapling": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_oak_sapling"
             ]
           }
         ]

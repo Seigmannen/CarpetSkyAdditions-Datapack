@@ -10,8 +10,7 @@
     "description": {
       "translate": "Convert a Vex into an Allay by playing it the right Note Block sequence"
     },
-    "frame": "challenge",
-    "hidden": true
+    "frame": "challenge"
   },
   "criteria": {
     "allay_vex": {

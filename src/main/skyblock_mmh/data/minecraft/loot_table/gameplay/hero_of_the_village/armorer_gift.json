@@ -7,23 +7,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet"
+          "name": "minecraft:chainmail_helmet",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate"
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_leggings"
+          "name": "minecraft:chainmail_leggings",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:chainmail_boots"
+          "name": "minecraft:chainmail_boots",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lava_bucket"
+          "name": "minecraft:lava_bucket",
+          "weight": 2
         }
       ]
     }

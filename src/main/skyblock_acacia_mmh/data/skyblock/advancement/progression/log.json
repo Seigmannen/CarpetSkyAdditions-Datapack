@@ -8,11 +8,11 @@
       "translate": "The First of Many"
     },
     "description": {
-      "translate": "Get your first Log"
+      "translate": "Get your first Acacia Log"
     }
   },
   "criteria": {
-    "has_oak_log": {
+    "has_acacia_log": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

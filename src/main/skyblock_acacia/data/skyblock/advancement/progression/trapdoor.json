@@ -12,7 +12,7 @@
     }
   },
   "criteria": {
-    "has_oak_trapdoor": {
+    "has_acacia_trapdoor": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

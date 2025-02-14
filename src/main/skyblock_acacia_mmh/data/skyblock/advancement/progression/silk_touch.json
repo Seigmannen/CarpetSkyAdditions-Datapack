@@ -13,7 +13,9 @@
     "title": {
       "translate": "Easier than Endermen"
     },
-    "description": "Get a Silk Touch tool so you can move Grass Blocks easier",
+    "description": {
+      "translate": "Get a Silk Touch tool so you can move Grass Blocks easier"
+    },
     "frame": "goal"
   },
   "parent": "skyblock:progression/kill_zombie",
