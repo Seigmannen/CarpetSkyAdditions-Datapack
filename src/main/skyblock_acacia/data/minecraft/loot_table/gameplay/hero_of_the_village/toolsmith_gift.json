@@ -7,23 +7,28 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_pickaxe"
+          "name": "minecraft:stone_pickaxe",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_axe"
+          "name": "minecraft:stone_axe",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_hoe"
+          "name": "minecraft:stone_hoe",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:stone_shovel"
+          "name": "minecraft:stone_shovel",
+          "weight": 10
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:lava_bucket"
+          "name": "minecraft:lava_bucket",
+          "weight": 2
         }
       ]
     }

@@ -13,7 +13,11 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 - **Skyblock Datapack:** This datapack starts with an oak tree.
 
+- **Skyblock Datapack MMH:** This version includes an edited version of the Vanilla Tweaks More Mob Heads.
+  
 - **Skyblock Acacia Datapack:** This datapack will start with an acacia tree for a little harder game.
+
+- **Skyblock Acacia Datapck MMH:** This version includes an edited version of the Vanilla Tweaks More Mob Heads.
 
 - **Standalone Datapacks:** In the original mod, both datapacks needed to be selected for skyblock acacia to have all advancements/behaviors. This version is standalone. No need for to activate both datapacks.
 
@@ -25,8 +29,11 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 - **Trial Chamber Music Disks Advancement:** Added new advancement for getting music disks from trial chambers using creepers.
 
-- **Updated Loot Table for Trial Vaults** These are too overpowered, so they have been nerfed.
+- **Updated Loot Table for Trial Vaults:** These are too overpowered, so they have been nerfed.
+
+- **More Mob Heads:** Added and edited version of Vanilla Tweaks More Mob Heads Datapack to make it work with the mod.
 
 ## Credits
-- Original `CarpetSkyAdditions` by [jsorrell](https://github.com/jsorrell/CarpetSkyAdditions).
-- Continued development and enhancements by [TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn).
+- Original `CarpetSkyAdditions` by [jsorrell](https://github.com/jsorrell/CarpetSkyAdditions)
+- Continued development and enhancements by [TreeOfSelf](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn)
+- [Vanilla Tweaks](https://vanillatweaks.net) for the More Mob Heads Datapack
