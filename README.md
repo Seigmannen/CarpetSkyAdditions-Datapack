@@ -23,7 +23,7 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 - **Skyblock Acacia Datapack MMH:** This version includes an edited version of the Vanilla Tweaks More Mob Heads.
 
-- **Standalone Datapacks:** In the original mod, both datapacks needed to be selected for skyblock acacia to have all advancements/behaviors. This version is standalone. No need for to activate both datapacks.
+- **Standalone Datapacks:** In the original mod, both datapacks needed to be selected for skyblock acacia to have all advancements/behaviors. This version is standalone. No need to activate both datapacks.
 
 ### New Additions:
 
