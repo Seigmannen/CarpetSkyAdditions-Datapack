@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:progression/sapling",
+  "parent": "skyblock:progression/log",
   "display": {
     "icon": {
       "id": "minecraft:oak_trapdoor"

@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:progression/gold_nugget",
+  "parent": "skyblock:progression/apple_sapling",
   "display": {
     "icon": {
       "id": "minecraft:golden_apple"

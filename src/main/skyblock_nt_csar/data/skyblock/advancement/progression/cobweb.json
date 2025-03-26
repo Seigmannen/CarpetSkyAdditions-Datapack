@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "skyblock:progression/go_down",
+  "parent": "skyblock:progression/dirt",
   "criteria": {
     "has_cobweb": {
       "trigger": "minecraft:inventory_changed",

@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:progression/trapdoor",
+  "parent": "skyblock:progression/water_bucket",
   "display": {
     "icon": {
       "id": "minecraft:bedrock"

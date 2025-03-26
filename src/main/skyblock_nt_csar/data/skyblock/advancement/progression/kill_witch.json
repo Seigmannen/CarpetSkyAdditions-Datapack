@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:progression/go_down",
+  "parent": "skyblock:progression/dirt",
   "display": {
     "icon": {
       "id": "minecraft:potion",

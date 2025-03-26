@@ -11,7 +11,7 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 
 ### Planned Features:
 
-- **Skyblock No Tree Datapack:** Planning to make a datapack with just a spawn platform, where saplings need to be obtained from Wandering Trader. This would probably be much harder and more time consuming in the beginning, but I think that would be interesting. There will be three versions of this one. One with, one without mechanics/tweaks listed here, and one with mechanics/tweaks/more mob heads.
+- **Skyblock No Tree Datapack:** Planning to make a datapack with just a spawn platform, where saplings need to be obtained from Wandering Trader. This would probably be much harder and more time consuming in the beginning, but I think that would be interesting. There will be three versions of this one. One with, one without mechanics/tweaks listed here, and one with mechanics/tweaks/more mob heads. **Ready for testing.**
 
 ### Implemented Features:
 

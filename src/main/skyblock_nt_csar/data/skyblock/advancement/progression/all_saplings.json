@@ -11,7 +11,7 @@
     },
     "frame": "goal"
   },
-  "parent": "skyblock:progression/wandering_trader",
+  "parent": "skyblock:progression/sapling",
   "criteria": {
     "spruce": {
       "trigger": "minecraft:inventory_changed",

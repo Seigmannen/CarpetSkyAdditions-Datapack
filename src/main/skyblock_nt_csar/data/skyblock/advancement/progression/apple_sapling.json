@@ -2,22 +2,25 @@
   "parent": "skyblock:progression/wandering_trader",
   "display": {
     "icon": {
-      "id": "minecraft:oak_sapling"
+      "id": "minecraft:apple"
     },
     "title": {
-      "translate": "The Circle of Life"
+      "translate": "Apple Tree"
     },
     "description": {
-      "translate": "Buy your first Sapling from a Wandering Trader"
+      "translate": "Buy an Oak Sapling or 4 Dark Oak Saplings from a Wandering Trader"
     }
   },
   "criteria": {
-    "has_oak_sapling": {
+    "has_apple_sapling": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": "#minecraft:saplings"
+            "items": [
+              "minecraft:oak_sapling",
+              "minecraft:dark_oak_sapling"
+            ]
           }
         ]
       }

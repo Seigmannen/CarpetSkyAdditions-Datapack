@@ -11,7 +11,7 @@
     },
     "frame": "challenge"
   },
-  "parent": "skyblock:progression/emerald",
+  "parent": "skyblock:progression/cure_zombie_villager",
   "criteria": {
     "allay_vex": {
       "trigger": "carpetskyadditions:allay_vex"
