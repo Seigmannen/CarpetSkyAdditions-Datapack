@@ -7,12 +7,6 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 1. Disable the built-in datapack in the `CarpetSkyAdditions-Reborn` mod.
 2. Enable and install this datapack.
 
-## Features & Changes
-
-### Planned Features:
-
-- **Skyblock No Tree Datapack:** Planning to make a datapack with just a spawn platform, where saplings need to be obtained from Wandering Trader. This would probably be much harder and more time consuming in the beginning, but I think that would be interesting. There will be three versions of this one. One with, one without mechanics/tweaks listed here, and one with mechanics/tweaks/more mob heads. **Ready for testing.**
-
 ### Implemented Features:
 
 - **Skyblock Datapack:** This datapack starts with an oak tree.
@@ -22,6 +16,12 @@ The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to com
 - **Skyblock Acacia Datapack:** This datapack will start with an acacia tree for a little harder game.
 
 - **Skyblock Acacia Datapack MMH:** This version includes an edited version of the Vanilla Tweaks More Mob Heads.
+
+- **Skyblock No Tree:** This datapack starts without any tree.
+
+- **Skyblock No Tree MMH:** This version includes an edited version of the Vanilla Tweaks More Mob Heads.
+
+- **Skyblock No Tree CSAR:** This datapack starts without any tree, and does not feature any other custom additions. It behaves the same way as the CarpetSkyAdditions-Reborn datapack.
 
 - **Standalone Datapacks:** In the original mod, both datapacks needed to be selected for skyblock acacia to have all advancements/behaviors. This version is standalone. No need to activate both datapacks.
 
