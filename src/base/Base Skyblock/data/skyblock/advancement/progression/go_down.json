@@ -1,5 +1,4 @@
 {
-  "parent": "skyblock:progression/water_bucket",
   "display": {
     "icon": {
       "id": "minecraft:bedrock"
@@ -11,6 +10,7 @@
       "translate": "Mobs spawn faster lower in the world"
     }
   },
+  "parent": "skyblock:progression/trapdoor",
   "criteria": {
     "is_low": {
       "trigger": "minecraft:tick",
