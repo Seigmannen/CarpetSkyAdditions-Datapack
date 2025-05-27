@@ -1,5 +1,4 @@
 {
-  "parent": "skyblock:progression/trapdoor",
   "display": {
     "icon": {
       "id": "minecraft:bedrock"
@@ -11,6 +10,7 @@
       "translate": "Mobs spawn faster lower in the world"
     }
   },
+  "parent": "skyblock:progression/trapdoor",
   "criteria": {
     "is_low": {
       "trigger": "minecraft:tick",
@@ -18,17 +18,20 @@
         "player": [
           {
             "condition": "minecraft:entity_properties",
+            "entity": "this",
             "predicate": {
-              "nbt": "{FallDistance: 0f}",
               "location": {
                 "position": {
                   "y": {
                     "max": -54
                   }
                 }
+              },
+              "flags": {
+                "is_on_ground": true,
+                "is_flying": false
               }
-            },
-            "entity": "this"
+            }
           }
         ]
       }

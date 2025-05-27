@@ -1,5 +1,10 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:tuff_from_blasting_andesite"
+    ]
+  },
   "criteria": {
     "has_andesite": {
       "trigger": "minecraft:inventory_changed",
@@ -24,10 +29,5 @@
       "has_the_recipe"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "skyblock:tuff_from_blasting_andesite"
-    ]
-  },
   "sends_telemetry_event": false
 }

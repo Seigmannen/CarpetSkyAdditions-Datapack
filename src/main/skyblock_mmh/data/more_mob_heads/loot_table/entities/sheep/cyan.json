@@ -17,11 +17,11 @@
 									"properties": [
 										{
 											"name": "textures",
-											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ0MmZjYmNhZjlkNDhmNzNmZmIwYzNjMzZmMzRiNDY0MzI5NWY2ZGFhNmNjNzRhYjlkMjQyZWQ1YWE1NjM2In19fQ=="
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWM2OGUzMDcwZWM3OTY5NGEwNDNjZDllYzM4NGNhY2U2NzdlMmRlNjJjNDMyNjNiNjUyNDM1Y2Q0NjZlYjNmIn19fQ=="
 										}
 									]
 								},
-								"minecraft:item_name": "\"Cyan Sheep Head\""
+								"minecraft:item_name": "Cyan Sheep Head"
 							}
 						}
 					]

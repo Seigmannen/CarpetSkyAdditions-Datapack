@@ -16,14 +16,14 @@
     "frame": "challenge"
   },
   "criteria": {
-    "axolotl": {
+    "armadillo": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "looking_at": {
-              "type": "minecraft:axolotl"
+              "type": "minecraft:armadillo"
             }
           }
         },
@@ -34,14 +34,14 @@
         }
       }
     },
-    "armadillo": {
+    "axolotl": {
       "trigger": "minecraft:using_item",
       "conditions": {
         "player": {
           "type_specific": {
             "type": "player",
             "looking_at": {
-              "type": "minecraft:armadillo"
+              "type": "minecraft:axolotl"
             }
           }
         },

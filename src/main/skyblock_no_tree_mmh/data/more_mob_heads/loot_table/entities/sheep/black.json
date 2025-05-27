@@ -17,11 +17,11 @@
 									"properties": [
 										{
 											"name": "textures",
-											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMzMzVlODA2NWM3YjVkZmVhNThkM2RmNzQ3NGYzOTZhZjRmYTBhMmJhNTJhM2M5YjdmYmE2ODMxOTI3MWM5MSJ9fX0="
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNiNzliN2M4MmU1MGNiZWNkNzI3NjQ1NzVhNWVkYjkzODY1YTQxMmM0YzAwZGY1NDQ1ZWEzY2E5ZWY5YTA5YSJ9fX0="
 										}
 									]
 								},
-								"minecraft:item_name": "\"Black Sheep Head\""
+								"minecraft:item_name": "Black Sheep Head"
 							}
 						}
 					]

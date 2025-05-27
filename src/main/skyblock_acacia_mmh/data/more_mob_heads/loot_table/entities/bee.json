@@ -38,7 +38,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Bee Head\""
+										"minecraft:item_name": "Bee Head"
 									}
 								}
 							],
@@ -68,7 +68,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Pollinated Bee Head\""
+										"minecraft:item_name": "Pollinated Bee Head"
 									}
 								}
 							],
@@ -98,7 +98,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Angry Bee Head\""
+										"minecraft:item_name": "Angry Bee Head"
 									}
 								}
 							],
@@ -128,7 +128,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Angry Pollinated Bee Head\""
+										"minecraft:item_name": "Angry Pollinated Bee Head"
 									}
 								}
 							],

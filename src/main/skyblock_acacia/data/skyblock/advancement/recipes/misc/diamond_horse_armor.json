@@ -1,5 +1,10 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:diamond_horse_armor"
+    ]
+  },
   "criteria": {
     "has_diamond": {
       "trigger": "minecraft:inventory_changed",
@@ -24,10 +29,5 @@
       "has_the_recipe"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "skyblock:diamond_horse_armor"
-    ]
-  },
   "sends_telemetry_event": false
 }

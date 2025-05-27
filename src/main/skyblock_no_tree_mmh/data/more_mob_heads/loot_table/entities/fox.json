@@ -28,7 +28,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Fox Head\""
+										"minecraft:item_name": "Fox Head"
 									}
 								}
 							],
@@ -36,7 +36,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{Type:\"red\"}"
+										"components": {
+											"minecraft:fox/variant": "red"
+										}
 									},
 									"entity": "this"
 								},
@@ -68,7 +70,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Snow Fox Head\""
+										"minecraft:item_name": "Snow Fox Head"
 									}
 								}
 							],
@@ -76,7 +78,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{Type:\"snow\"}"
+										"components": {
+											"minecraft:fox/variant": "snow"
+										}
 									},
 									"entity": "this"
 								},

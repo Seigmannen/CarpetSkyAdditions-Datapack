@@ -25,7 +25,7 @@
                     }
                   ]
                 },
-                "minecraft:item_name": "\"Toast Head\""
+                "minecraft:item_name": "Toast Head"
               }
             }
           ],
@@ -59,7 +59,7 @@
           "function": "minecraft:filtered",
           "item_filter": {
             "components": {
-              "minecraft:custom_name": "\"\""
+              "minecraft:custom_name": ""
             }
           },
           "modifier": {
@@ -107,7 +107,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Brown Rabbit Head\""
+                    "minecraft:item_name": "Brown Rabbit Head"
                   }
                 }
               ],
@@ -115,7 +115,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:0}"
+                    "components": {
+                      "minecraft:rabbit/variant": "brown"
+                    }
                   },
                   "entity": "this"
                 },
@@ -147,7 +149,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"White Rabbit Head\""
+                    "minecraft:item_name": "White Rabbit Head"
                   }
                 }
               ],
@@ -155,7 +157,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:1}"
+                    "components": {
+                      "minecraft:rabbit/variant": "white"
+                    }
                   },
                   "entity": "this"
                 },
@@ -187,7 +191,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Black Rabbit Head\""
+                    "minecraft:item_name": "Black Rabbit Head"
                   }
                 }
               ],
@@ -195,7 +199,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:2}"
+                    "components": {
+                      "minecraft:rabbit/variant": "black"
+                    }
                   },
                   "entity": "this"
                 },
@@ -227,7 +233,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Black and White Rabbit Head\""
+                    "minecraft:item_name": "Black and White Rabbit Head"
                   }
                 }
               ],
@@ -235,7 +241,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:3}"
+                    "components": {
+                      "minecraft:rabbit/variant": "white_splotched"
+                    }
                   },
                   "entity": "this"
                 },
@@ -267,7 +275,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Gold Rabbit Head\""
+                    "minecraft:item_name": "Gold Rabbit Head"
                   }
                 }
               ],
@@ -275,7 +283,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:4}"
+                    "components": {
+                      "minecraft:rabbit/variant": "gold"
+                    }
                   },
                   "entity": "this"
                 },
@@ -307,7 +317,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"Salt and Pepper Rabbit Head\""
+                    "minecraft:item_name": "Salt and Pepper Rabbit Head"
                   }
                 }
               ],
@@ -315,7 +325,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:5}"
+                    "components": {
+                      "minecraft:rabbit/variant": "salt"
+                    }
                   },
                   "entity": "this"
                 },
@@ -347,7 +359,7 @@
                         }
                       ]
                     },
-                    "minecraft:item_name": "\"The Killer Bunny Head\""
+                    "minecraft:item_name": "The Killer Bunny Head"
                   }
                 }
               ],
@@ -355,7 +367,9 @@
                 {
                   "condition": "entity_properties",
                   "predicate": {
-                    "nbt": "{RabbitType:99}"
+                    "components": {
+                      "minecraft:rabbit/variant": "evil"
+                    }
                   },
                   "entity": "this"
                 },
@@ -386,7 +400,7 @@
           "function": "minecraft:filtered",
           "item_filter": {
             "components": {
-              "minecraft:custom_name": "\"\""
+              "minecraft:custom_name": ""
             }
           },
           "modifier": {

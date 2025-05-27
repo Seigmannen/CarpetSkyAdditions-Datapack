@@ -1,5 +1,10 @@
 {
   "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "skyblock:iron_horse_armor"
+    ]
+  },
   "criteria": {
     "has_iron_ingot": {
       "trigger": "minecraft:inventory_changed",
@@ -24,10 +29,5 @@
       "has_the_recipe"
     ]
   ],
-  "rewards": {
-    "recipes": [
-      "skyblock:iron_horse_armor"
-    ]
-  },
   "sends_telemetry_event": false
 }

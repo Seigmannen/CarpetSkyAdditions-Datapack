@@ -13,18 +13,6 @@
     "frame": "goal"
   },
   "criteria": {
-    "oak": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:oak_sapling"
-            ]
-          }
-        ]
-      }
-    },
     "spruce": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -32,6 +20,30 @@
           {
             "items": [
               "minecraft:spruce_sapling"
+            ]
+          }
+        ]
+      }
+    },
+    "pale_oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pale_oak_sapling"
+            ]
+          }
+        ]
+      }
+    },
+    "acacia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:acacia_sapling"
             ]
           }
         ]
@@ -61,25 +73,13 @@
         ]
       }
     },
-    "cherry": {
+    "oak": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:cherry_sapling"
-            ]
-          }
-        ]
-      }
-    },
-    "acacia": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:acacia_sapling"
+              "minecraft:oak_sapling"
             ]
           }
         ]
@@ -109,13 +109,13 @@
         ]
       }
     },
-    "pale_oak": {
+    "cherry": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "minecraft:pale_oak_sapling"
+              "minecraft:cherry_sapling"
             ]
           }
         ]

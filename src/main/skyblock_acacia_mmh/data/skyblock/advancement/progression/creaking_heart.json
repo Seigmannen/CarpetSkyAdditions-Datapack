@@ -7,13 +7,13 @@
       "translate": "Open Heart"
     },
     "description": {
-      "translate": "Grow a pale oak sapling near an open eye blossom to create a creaking heart"
+      "translate": "Grow a pale oak sapling near an open eye blossom to create a creaking heart."
     },
     "frame": "goal"
   },
   "parent": "skyblock:progression/wandering_trader",
   "criteria": {
-    "allay_vex": {
+    "creaking_heart": {
       "trigger": "carpetskyadditions:creaking_heart"
     }
   }
