@@ -38,7 +38,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Tabby Cat Head\""
+										"minecraft:item_name": "Tabby Cat Head"
 									}
 								}
 							],
@@ -46,7 +46,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:tabby'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:tabby"
+										}
 									},
 									"entity": "this"
 								}
@@ -68,7 +70,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Tuxedo Cat Head\""
+										"minecraft:item_name": "Tuxedo Cat Head"
 									}
 								}
 							],
@@ -76,7 +78,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:black'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:black"
+										}
 									},
 									"entity": "this"
 								}
@@ -98,7 +102,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Ginger Cat Head\""
+										"minecraft:item_name": "Ginger Cat Head"
 									}
 								}
 							],
@@ -106,7 +110,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:red'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:red"
+										}
 									},
 									"entity": "this"
 								}
@@ -128,7 +134,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Siamese Cat Head\""
+										"minecraft:item_name": "Siamese Cat Head"
 									}
 								}
 							],
@@ -136,7 +142,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:siamese'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:siamese"
+										}
 									},
 									"entity": "this"
 								}
@@ -158,7 +166,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"British Shorthair Cat Head\""
+										"minecraft:item_name": "British Shorthair Cat Head"
 									}
 								}
 							],
@@ -166,7 +174,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:british_shorthair'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:british_shorthair"
+										}
 									},
 									"entity": "this"
 								}
@@ -188,7 +198,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Calico Cat Head\""
+										"minecraft:item_name": "Calico Cat Head"
 									}
 								}
 							],
@@ -196,7 +206,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:calico'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:calico"
+										}
 									},
 									"entity": "this"
 								}
@@ -218,7 +230,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Persian Cat Head\""
+										"minecraft:item_name": "Persian Cat Head"
 									}
 								}
 							],
@@ -226,7 +238,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:persian'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:persian"
+										}
 									},
 									"entity": "this"
 								}
@@ -248,7 +262,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Ragdoll Cat Head\""
+										"minecraft:item_name": "Ragdoll Cat Head"
 									}
 								}
 							],
@@ -256,7 +270,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:ragdoll'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:ragdoll"
+										}
 									},
 									"entity": "this"
 								}
@@ -278,7 +294,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"White Cat Head\""
+										"minecraft:item_name": "White Cat Head"
 									}
 								}
 							],
@@ -286,7 +302,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:white'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:white"
+										}
 									},
 									"entity": "this"
 								}
@@ -308,7 +326,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Jellie Cat Head\""
+										"minecraft:item_name": "Jellie Cat Head"
 									}
 								}
 							],
@@ -316,7 +334,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:jellie'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:jellie"
+										}
 									},
 									"entity": "this"
 								}
@@ -338,7 +358,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "\"Black Cat Head\""
+										"minecraft:item_name": "Black Cat Head"
 									}
 								}
 							],
@@ -346,7 +366,9 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"nbt": "{variant:'minecraft:all_black'}"
+										"components": {
+											"minecraft:cat/variant": "minecraft:all_black"
+										}
 									},
 									"entity": "this"
 								}
