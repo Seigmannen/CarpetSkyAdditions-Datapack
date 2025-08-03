@@ -18,7 +18,6 @@
         "player": [
           {
             "condition": "minecraft:entity_properties",
-            "entity": "this",
             "predicate": {
               "location": {
                 "position": {
@@ -28,10 +27,10 @@
                 }
               },
               "flags": {
-                "is_on_ground": true,
-                "is_flying": false
+                "is_on_ground": true
               }
-            }
+            },
+            "entity": "this"
           }
         ]
       }

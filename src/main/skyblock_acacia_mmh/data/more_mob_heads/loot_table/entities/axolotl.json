@@ -28,7 +28,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Lucy Axolotl Head"
+										"minecraft:item_name": "\"Lucy Axolotl Head\""
 									}
 								}
 							],
@@ -36,9 +36,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:axolotl/variant": "lucy"
-										}
+										"nbt": "{Variant:0}"
 									},
 									"entity": "this"
 								},
@@ -70,7 +68,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Wild Axolotl Head"
+										"minecraft:item_name": "\"Wild Axolotl Head\""
 									}
 								}
 							],
@@ -78,9 +76,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:axolotl/variant": "wild"
-										}
+										"nbt": "{Variant:1}"
 									},
 									"entity": "this"
 								},
@@ -112,7 +108,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Gold Axolotl Head"
+										"minecraft:item_name": "\"Gold Axolotl Head\""
 									}
 								}
 							],
@@ -120,9 +116,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:axolotl/variant": "gold"
-										}
+										"nbt": "{Variant:2}"
 									},
 									"entity": "this"
 								},
@@ -154,7 +148,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Cyan Axolotl Head"
+										"minecraft:item_name": "\"Cyan Axolotl Head\""
 									}
 								}
 							],
@@ -162,9 +156,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:axolotl/variant": "cyan"
-										}
+										"nbt": "{Variant:3}"
 									},
 									"entity": "this"
 								},
@@ -196,7 +188,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Blue Axolotl Head"
+										"minecraft:item_name": "\"Blue Axolotl Head\""
 									}
 								}
 							],
@@ -204,9 +196,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:axolotl/variant": "blue"
-										}
+										"nbt": "{Variant:4}"
 									},
 									"entity": "this"
 								},

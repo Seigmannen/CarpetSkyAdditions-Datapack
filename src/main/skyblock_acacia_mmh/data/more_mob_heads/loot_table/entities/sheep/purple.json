@@ -17,11 +17,11 @@
 									"properties": [
 										{
 											"name": "textures",
-											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTQ1ZmUxMGVjNDYyNzU3NTM3MzVlZTBmM2Q1ODU3YmY5NWFjNWJlZDMwNTZiNDRiMmE3MjJlNmU4NGI2NmNlOSJ9fX0="
+											"value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ0OWQwODI5MWRhZTQ1YTI0NjczNjE5NjAyZjQzNWI1N2Y0Y2Q0ZTllOThkMmUwZmJlYzRmMTgxNDQ3ODFkMyJ9fX0="
 										}
 									]
 								},
-								"minecraft:item_name": "Purple Sheep Head"
+								"minecraft:item_name": "\"Purple Sheep Head\""
 							}
 						}
 					]

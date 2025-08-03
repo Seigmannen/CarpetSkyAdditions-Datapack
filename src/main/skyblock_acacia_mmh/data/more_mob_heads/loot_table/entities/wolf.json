@@ -47,7 +47,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Ashen Wolf Head"
+														"minecraft:item_name": "\"Ashen Wolf Head\""
 													}
 												}
 											],
@@ -55,10 +55,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:ashen"
-														}
+														"nbt": "{variant:'minecraft:ashen',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -81,7 +78,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Ashen Wolf Head"
+														"minecraft:item_name": "\"Angry Ashen Wolf Head\""
 													}
 												}
 											],
@@ -89,9 +86,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:ashen"
-														}
+														"nbt": "{variant:'minecraft:ashen'}"
 													},
 													"entity": "this"
 												}
@@ -131,7 +126,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Black Wolf Head"
+														"minecraft:item_name": "\"Black Wolf Head\""
 													}
 												}
 											],
@@ -139,10 +134,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:black"
-														}
+														"nbt": "{variant:'minecraft:black',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -165,7 +157,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Black Wolf Head"
+														"minecraft:item_name": "\"Angry Black Wolf Head\""
 													}
 												}
 											],
@@ -173,9 +165,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:black"
-														}
+														"nbt": "{variant:'minecraft:black'}"
 													},
 													"entity": "this"
 												}
@@ -215,7 +205,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Chestnut Wolf Head"
+														"minecraft:item_name": "\"Chestnut Wolf Head\""
 													}
 												}
 											],
@@ -223,10 +213,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:chestnut"
-														}
+														"nbt": "{variant:'minecraft:chestnut',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -249,7 +236,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Chestnut Wolf Head"
+														"minecraft:item_name": "\"Angry Chestnut Wolf Head\""
 													}
 												}
 											],
@@ -257,9 +244,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:chestnut"
-														}
+														"nbt": "{variant:'minecraft:chestnut'}"
 													},
 													"entity": "this"
 												}
@@ -299,7 +284,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Pale Wolf Head"
+														"minecraft:item_name": "\"Pale Wolf Head\""
 													}
 												}
 											],
@@ -307,10 +292,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:pale"
-														}
+														"nbt": "{variant:'minecraft:pale',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -333,7 +315,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Pale Wolf Head"
+														"minecraft:item_name": "\"Angry Pale Wolf Head\""
 													}
 												}
 											],
@@ -341,9 +323,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:pale"
-														}
+														"nbt": "{variant:'minecraft:pale'}"
 													},
 													"entity": "this"
 												}
@@ -383,7 +363,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Rusty Wolf Head"
+														"minecraft:item_name": "\"Rusty Wolf Head\""
 													}
 												}
 											],
@@ -391,10 +371,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:rusty"
-														}
+														"nbt": "{variant:'minecraft:rusty',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -417,7 +394,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Rusty Wolf Head"
+														"minecraft:item_name": "\"Angry Rusty Wolf Head\""
 													}
 												}
 											],
@@ -425,9 +402,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:rusty"
-														}
+														"nbt": "{variant:'minecraft:rusty'}"
 													},
 													"entity": "this"
 												}
@@ -467,7 +442,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Snowy Wolf Head"
+														"minecraft:item_name": "\"Snowy Wolf Head\""
 													}
 												}
 											],
@@ -475,10 +450,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:snowy"
-														}
+														"nbt": "{variant:'minecraft:snowy',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -501,7 +473,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Snowy Wolf Head"
+														"minecraft:item_name": "\"Angry Snowy Wolf Head\""
 													}
 												}
 											],
@@ -509,9 +481,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:snowy"
-														}
+														"nbt": "{variant:'minecraft:snowy'}"
 													},
 													"entity": "this"
 												}
@@ -551,7 +521,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Spotted Wolf Head"
+														"minecraft:item_name": "\"Spotty Wolf Head\""
 													}
 												}
 											],
@@ -559,10 +529,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:spotted"
-														}
+														"nbt": "{variant:'minecraft:spotted',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -585,7 +552,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Spotted Wolf Head"
+														"minecraft:item_name": "\"Angry Spotty Wolf Head\""
 													}
 												}
 											],
@@ -593,9 +560,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:spotted"
-														}
+														"nbt": "{variant:'minecraft:spotted'}"
 													},
 													"entity": "this"
 												}
@@ -635,7 +600,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Striped Wolf Head"
+														"minecraft:item_name": "\"Striped Wolf Head\""
 													}
 												}
 											],
@@ -643,10 +608,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:striped"
-														}
+														"nbt": "{variant:'minecraft:striped',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -669,7 +631,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Striped Wolf Head"
+														"minecraft:item_name": "\"Angry Striped Wolf Head\""
 													}
 												}
 											],
@@ -677,9 +639,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:striped"
-														}
+														"nbt": "{variant:'minecraft:striped'}"
 													},
 													"entity": "this"
 												}
@@ -719,7 +679,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Woods Wolf Head"
+														"minecraft:item_name": "\"Woods Wolf Head\""
 													}
 												}
 											],
@@ -727,10 +687,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"nbt": "{AngerTime:0}",
-														"components": {
-															"minecraft:wolf/variant": "minecraft:woods"
-														}
+														"nbt": "{variant:'minecraft:woods',AngerTime:0}"
 													},
 													"entity": "this"
 												}
@@ -753,7 +710,7 @@
 																}
 															]
 														},
-														"minecraft:item_name": "Angry Woods Wolf Head"
+														"minecraft:item_name": "\"Angry Woods Wolf Head\""
 													}
 												}
 											],
@@ -761,9 +718,7 @@
 												{
 													"condition": "entity_properties",
 													"predicate": {
-														"components": {
-															"minecraft:wolf/variant": "minecraft:woods"
-														}
+														"nbt": "{variant:'minecraft:woods'}"
 													},
 													"entity": "this"
 												}
@@ -805,7 +760,7 @@
 														}
 													]
 												},
-												"minecraft:item_name": "Pale Wolf Head"
+												"minecraft:item_name": "\"Pale Wolf Head\""
 											}
 										}
 									],
@@ -836,7 +791,7 @@
 														}
 													]
 												},
-												"minecraft:item_name": "Angry Pale Wolf Head"
+												"minecraft:item_name": "\"Angry Pale Wolf Head\""
 											}
 										}
 									]

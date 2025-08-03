@@ -38,7 +38,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Creamy Llama Head"
+										"minecraft:item_name": "\"Creamy Llama Head\""
 									}
 								}
 							],
@@ -46,9 +46,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:llama/variant": "creamy"
-										}
+										"nbt": "{Variant:0}"
 									},
 									"entity": "this"
 								}
@@ -70,7 +68,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "White Llama Head"
+										"minecraft:item_name": "\"White Llama Head\""
 									}
 								}
 							],
@@ -78,9 +76,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:llama/variant": "white"
-										}
+										"nbt": "{Variant:1}"
 									},
 									"entity": "this"
 								}
@@ -102,7 +98,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Brown Llama Head"
+										"minecraft:item_name": "\"Brown Llama Head\""
 									}
 								}
 							],
@@ -110,9 +106,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:llama/variant": "brown"
-										}
+										"nbt": "{Variant:2}"
 									},
 									"entity": "this"
 								}
@@ -134,7 +128,7 @@
 												}
 											]
 										},
-										"minecraft:item_name": "Gray Llama Head"
+										"minecraft:item_name": "\"Gray Llama Head\""
 									}
 								}
 							],
@@ -142,9 +136,7 @@
 								{
 									"condition": "entity_properties",
 									"predicate": {
-										"components": {
-											"minecraft:llama/variant": "gray"
-										}
+										"nbt": "{Variant:3}"
 									},
 									"entity": "this"
 								}

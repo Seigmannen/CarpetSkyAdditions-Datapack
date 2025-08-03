@@ -385,30 +385,6 @@
           }
         ]
       }
-    },
-    "has_tall_dry_grass": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:tall_dry_grass"
-            ]
-          }
-        ]
-      }
-    },
-    "has_firefly_bush": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:firefly_bush"
-            ]
-          }
-        ]
-      }
     }
   }
 }
