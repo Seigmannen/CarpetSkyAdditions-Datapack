@@ -1,5 +1,5 @@
 {
-  "parent": "skyblock:progression/cure_zombie_villager",
+  "parent": "skyblock:progression/dirt",
   "display": {
     "icon": {
       "id": "minecraft:emerald"
@@ -8,7 +8,7 @@
       "translate": "Emerald City"
     },
     "description": {
-      "translate": "Trade for Emeralds"
+      "translate": "Get Emeralds from Foxes or archaeology"
     }
   },
   "criteria": {
