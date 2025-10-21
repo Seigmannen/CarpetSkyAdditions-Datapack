@@ -3,6 +3,8 @@
 ## Overview
 The `CarpetSkyAdditions-Datapack` is a custom Minecraft datapack designed to complement the [CarpetSkyAdditions-Reborn](https://github.com/TreeOfSelf/CarpetSkyAdditions-Reborn) Fabric mod. It introduces several new mechanics and tweaks to enhance skyblock gameplay by adding unique features, advancements, and interactions not covered by the mod alone.
 
+This datapack has now been implemented in the CarpetSkyAdditions-Reborn mod. This datapack will still be maintained.
+
 ## Installation
 1. Disable the built-in datapack in the `CarpetSkyAdditions-Reborn` mod.
 2. Enable and install this datapack.
